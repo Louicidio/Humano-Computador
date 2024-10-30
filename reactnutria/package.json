@@ -1,0 +1,31 @@
+{
+  "name": "flamengo-api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-icons/all-files": "^4.1.0",
+    "axios": "^0.21.1",
+    "chrome-aws-lambda": "^10.1.0",
+    "next": "11.0.1",
+    "node-html-parser": "^4.1.2",
+    "puppeteer-core": "^10.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "styled-components": "^5.3.0"
+  },
+  "devDependencies": {
+    "@types/puppeteer-core": "^5.4.0",
+    "@types/react": "17.0.15",
+    "@types/styled-components": "^5.1.11",
+    "babel-plugin-styled-components": "^1.13.2",
+    "eslint": "7.31.0",
+    "eslint-config-next": "11.0.1",
+    "typescript": "4.3.5"
+  }
+}
